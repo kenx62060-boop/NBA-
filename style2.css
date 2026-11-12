@@ -1,0 +1,151 @@
+    h1{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 60px;
+            padding: 10px;
+            font-size: 80px;
+            
+        }
+    h2{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            padding: 10px;
+            font-size: 50px;
+        }
+        h3{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            padding: 10px;
+            font-size: 40px;
+        }
+        h4{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            padding: 10px;
+            font-size: 30px;
+            
+        }
+        body {
+            text-align: center;
+            background-image: url("https://i0.wp.com/40visuals.com/wp-content/uploads/2024/02/Slam-Dunk-Contest-2024-with-LED-Glass-Floor-scaled.jpg?fit=2560%2C1440&ssl=1");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .top-nav {
+            margin: -8px -8px 30px;
+            padding: 12px;
+            background-color: #203b5e;
+        }
+
+        .top-nav a {
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-right: 16px;
+        }
+        
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        ul {
+            display: inline-block;
+            max-width: 900px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 23px;
+
+        }
+
+        .photo-gallery,
+        .video-gallery {
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 16px;
+        }
+
+        .gallery-item h4 {
+            margin: 10px;
+        }
+
+        .gallery-item img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+
+        .gallery-item iframe {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: 0;
+        }
+
+        .profile-card {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 24px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #111;
+            font-family: Arial, sans-serif;
+            font-size: 19px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .profile-card h2 {
+            margin: 0 0 16px;
+            padding: 0;
+            background: none;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .profile-card ul {
+            display: block;
+            max-width: none;
+            margin: 0;
+            background: none;
+            font-size: 19px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                margin: 30px 12px;
+                font-size: 48px;
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+
+        }
